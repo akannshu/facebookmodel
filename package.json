@@ -4,12 +4,17 @@
   "description": "",
   "main": "p4.js",
   "dependencies": {
+    "angular": "^1.7.0",
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.1",
+    "npm": "^6.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start" : "node p4.js"
   },
   "author": "AK",
   "license": "MIT"
