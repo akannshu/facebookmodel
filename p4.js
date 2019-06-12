@@ -5,7 +5,7 @@ var app = express();
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 const Facebook = require('./fbmodel/fbmd');
 
-mongoose.connect('mongodb://punisher:yummyPAPA4@ds263791.mlab.com:63791/fbdatas');
+mongoose.connect('mongodb://userid:password@ds263791.mlab.com:63791/fbdatas');
 mongoose.Promise = global.Promise;
 
 
